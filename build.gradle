@@ -1,0 +1,19 @@
+group 'android-chat-com.chat.util'
+version '1.0-RELEASE'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    baseName = 'android-chat-utils'
+    version =  '1.0.0'
+}
+
+dependencies {
+    compile "com.fasterxml.jackson.core:jackson-databind:latest.release"
+    testCompile "junit:junit:4.12"
+}
